@@ -1,0 +1,49 @@
+#root {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 20% 20%;
+}
+h2, h3 {
+    text-align-last: center;
+}
+h1, h2, h3 {
+    margin-bottom: 30px;
+}
+.films-block, .like {
+    border-right: 2px solid #ccc;
+}
+.form {
+    width: 400px;
+    margin:0 auto;
+    padding: 50px;
+}
+.form-control {
+    width: 300px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-bottom: 50px;
+}
+
+button {
+    margin-top: 10px;
+}
+.flexItems {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+img {
+    border-radius: 15px;
+}
+.removeItem {
+    display: flex;
+    flex-direction: column;
+}
+.like {
+    padding-right: 35px;
+}
